@@ -1,0 +1,25 @@
+﻿# IDE
+.idea/
+.vs/
+
+# 빌드 결과물
+**/bin/
+**/obj/
+
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# Rider/ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# 기타
+*.log
+*.cache
