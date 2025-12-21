@@ -8,10 +8,13 @@
         BasedOn="{StaticResource {x:Type based:DarkWindow}}">
         <Setter Property="Content">
             <Setter.Value>
-                <units:FolderTreeView>
-                    <units:FolderTreeItem Header="Matthew" />
-                    <units:FolderTreeItem Header="Betty" />
-                </units:FolderTreeView>
+                <StackPanel>
+                    <TextBox Text="{Binding TestTitle}"></TextBox>
+                    <units:FolderTreeView>
+                        <units:FolderTreeItem Header="Matthew" />
+                        <units:FolderTreeItem Header="Betty" />
+                    </units:FolderTreeView>
+                </StackPanel>
             </Setter.Value>
         </Setter>
     </Style>
