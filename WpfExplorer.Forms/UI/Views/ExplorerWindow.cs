@@ -11,9 +11,4 @@ public class ExplorerWindow : DarkWindow
         DefaultStyleKeyProperty.OverrideMetadata(typeof(ExplorerWindow),
             new FrameworkPropertyMetadata(typeof(ExplorerWindow)));
     }
-
-    public ExplorerWindow()
-    {
-        DataContext = new ExplorerWindowViewModel();
-    }
 }
