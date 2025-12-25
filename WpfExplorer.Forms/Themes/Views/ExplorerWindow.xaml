@@ -2,22 +2,23 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:based="clr-namespace:WpfExplorer.Support.UI.Units;assembly=WpfExplorer.Support"
                     xmlns:views="clr-namespace:WpfExplorer.Forms.UI.Views"
-                    xmlns:units="clr-namespace:WpfExplorer.Forms.UI.Units">
+                    >
     <Style 
         TargetType="{x:Type views:ExplorerWindow}" 
         BasedOn="{StaticResource {x:Type based:DarkWindow}}">
         <Setter Property="Content">
             <Setter.Value>
-                <StackPanel>
-                    <TextBlock Text="{Binding}" Foreground="#FFFFFF"/>
-                    <TextBlock Text="{Binding DownloadDirectory}" Foreground="#FFFFFF"/>
-                    <TextBlock Text="{Binding DocumentsDirectory}" Foreground="#FFFFFF"/>
-                    <TextBlock Text="{Binding PicturesDirectory}" Foreground="#FFFFFF"/>
-                    <units:FolderTreeView>
-                        <units:FolderTreeItem Header="Matthew" />
-                        <units:FolderTreeItem Header="Betty" />
-                    </units:FolderTreeView>
-                </StackPanel>
+                <!-- <StackPanel> -->
+                <!--     <TextBlock Text="{Binding}" Foreground="#FFFFFF"/> -->
+                <!--     <TextBlock Text="{Binding DownloadDirectory}" Foreground="#FFFFFF"/> -->
+                <!--     <TextBlock Text="{Binding DocumentsDirectory}" Foreground="#FFFFFF"/> -->
+                <!--     <TextBlock Text="{Binding PicturesDirectory}" Foreground="#FFFFFF"/> -->
+                <!--     <units:FolderTreeView> -->
+                <!--         <units:FolderTreeItem Header="Matthew" /> -->
+                <!--         <units:FolderTreeItem Header="Betty" /> -->
+                <!--     </units:FolderTreeView> -->
+                <!-- </StackPanel> -->
+                <based:MatthewRegion RegionName="MainRegion"/>
             </Setter.Value>
         </Setter>
     </Style>

@@ -40,7 +40,7 @@
                             </Grid.ColumnDefinitions>
                             <Border Grid.ColumnSpan="4"
                                     Background="#222222"/>
-                            <units:CloseButton Grid.Column="1"/> 
+                            <units:CloseButton x:Name="PART_CloseButton" Grid.Column="1"/> 
                             <ContentPresenter
                                 Grid.Row="1"
                                 Grid.ColumnSpan="2"
