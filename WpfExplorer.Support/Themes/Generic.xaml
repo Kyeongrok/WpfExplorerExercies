@@ -4,5 +4,6 @@
         <ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/CloseButton.xaml"></ResourceDictionary>
         <ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/DarkScrollViewer.xaml"></ResourceDictionary>
         <ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/DarkWindow.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/MatthewRegion.xaml"></ResourceDictionary>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
