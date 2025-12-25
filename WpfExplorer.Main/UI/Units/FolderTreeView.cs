@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace WpfExplorer.Forms.UI.Units;
+namespace WpfExplorer.Main.UI.Units;
 
 public class FolderTreeView : TreeView
 {
@@ -9,5 +9,9 @@ public class FolderTreeView : TreeView
     {
         DefaultStyleKeyProperty.OverrideMetadata(typeof(FolderTreeView), 
             new FrameworkPropertyMetadata(typeof(FolderTreeView)));
+    }
+    protected override DependencyObject GetContainerForItemOverride()
+    {
+        return new FolderTreeItem();
     }
 }
